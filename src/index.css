@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  background-image: url("/background.svg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+}
+
+.container{
+  width: 85vw;
+  height: 85vh;
+  background: rgba(20, 20, 46, 0.7);
+  backdrop-filter: blur(5px) saturate(180%);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.537);
+  display: flex;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #aa3333;  /* Track color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #FF7, #5ff);  /* Thumb color */
+  border-radius: 10px;
+  border: 2px solid #aa3333;  /* Border to match the background */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #5ff, #FF7);  /* Thumb hover color */
+}
+
+/* Customize scrollbar for specific elements */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #aa3333;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #FF7, #5ff);
+  border-radius: 10px;
+  border: 2px solid #aa3333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #5ff, #FF7);
+}
