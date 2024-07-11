@@ -1,2 +1,2 @@
 # Chat App
-Really painfully coded react and firebase used chat app.
+Developed a chat application using React and Firebase, featuring real-time messaging, authentication, and file storage. Integrated Firebase for backend services, including authentication, Firestore for the database, and Firebase Storage for media files. Utilized React libraries such as Emoji Picker, React Icons, and React Toastify to enhance the user experience. Implemented state management with Zustand and provided user-friendly notifications for a seamless chat experience.
